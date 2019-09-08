@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<grl-catalog author="Amin" catalog-name="URNspec" description="">
+ <element-def>
+  <intentional-element decompositiontype="And" description="" id="1" name="Art. 7 GDPR (Conditions for consent)" type="Goal"/>
+  <intentional-element decompositiontype="Or" description="" id="2" name="Paragraph 1" type="Goal"/>
+  <intentional-element decompositiontype="Xor" description="" id="3" name="Paragraph 2" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="4" name="Paragraph 3" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="5" name="Paragraph 4 (performance is conditional on consent)" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="6" name="Processing is NOT based on consent" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="7" name="be able to demonstrate that the data subject has consented to processing " type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="8" name="No written request for consent " type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="9" name="Request for consent is clear" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="10" name="Data subject has the right to withdraw the consent anytime" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="11" name="Subject is inform beforehand that the withdrawal of consent does not affect the lawfulness of processing based on consent before its withdrawal" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="12" name="Withdrawal is easy" type="Task"/>
+ </element-def>
+ <link-def>
+  <decomposition description="" destid="1" name="Decomp1" srcid="2"/>
+  <decomposition description="" destid="1" name="Decomp1" srcid="3"/>
+  <decomposition description="" destid="1" name="Decomp1" srcid="4"/>
+  <decomposition description="" destid="1" name="Decomp1" srcid="5"/>
+  <decomposition description="" destid="2" name="Decomp1" srcid="6"/>
+  <decomposition description="" destid="2" name="Decomp1" srcid="7"/>
+  <decomposition description="" destid="3" name="Decomp1" srcid="8"/>
+  <decomposition description="" destid="3" name="Decomp1" srcid="9"/>
+  <decomposition description="" destid="4" name="Decomp1" srcid="10"/>
+  <decomposition description="" destid="4" name="Decomp1" srcid="11"/>
+  <decomposition description="" destid="4" name="Decomp1" srcid="12"/>
+ </link-def>
+ <actor-def>
+  <actor description="" id="a1" name="actor1"/>
+ </actor-def>
+ <actor-IE-link-def>
+  <actorContIE actor="a1" ie="1"/>
+  <actorContIE actor="a1" ie="2"/>
+  <actorContIE actor="a1" ie="3"/>
+  <actorContIE actor="a1" ie="4"/>
+  <actorContIE actor="a1" ie="5"/>
+  <actorContIE actor="a1" ie="6"/>
+  <actorContIE actor="a1" ie="7"/>
+  <actorContIE actor="a1" ie="8"/>
+  <actorContIE actor="a1" ie="9"/>
+  <actorContIE actor="a1" ie="10"/>
+  <actorContIE actor="a1" ie="11"/>
+  <actorContIE actor="a1" ie="12"/>
+ </actor-IE-link-def>
+</grl-catalog>
