@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<grl-catalog author="Amin" catalog-name="URNspec" description="">
+ <element-def>
+  <intentional-element decompositiontype="Xor" description="" id="1" name="Art. 17 GDPR (Right to erasure, to be forgotten)" type="Goal"/>
+  <intentional-element decompositiontype="Or" description="" id="2" name="Paragraph 17.3 (No erasure since processing is necessary for:)" type="Goal"/>
+  <intentional-element decompositiontype="Xor" description="" id="3" name="Erasure shall take place" type="Goal"/>
+  <intentional-element decompositiontype="Or" description="" id="4" name="Paragraph 17.1 " type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="5" name="Erase personal data without undue delay" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="6" name="Data subject did NOT request erasure " type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="7" name="Grounds for erasure do NOT hold" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="8" name="Paragraph 17.2 " type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="9" name="The personal data is made public " type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="10" name="taking account of available technology and the cost of implementation, take reasonable steps, including technical measures, to inform controllers which are processing the personal data that the data subject has requested the erasure by such controllers of any links to, or copy or replication of, those personal data." type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="11" name="the personal data ARE still necessary in relation to the purposes for which they were collected or otherwise processed;" type="Task"/>
+  <intentional-element decompositiontype="Or" description="" id="12" name="Sub-paragraph 17.1.b negated" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="13" name="the data subject do Not withdraw consent on which the processing is based according to point (a) of Article 6(1), or point (a) of Article 9(2)," type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="14" name="There IS other legal ground for processing" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="15" name="Sub-paragraph 17.1.c negated" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="16" name="the data subject do not objects to the processing pursuant to Article 21(1) or there are overriding legitimate grounds for the processing" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="17" name="the data subject do not object to the processing pursuant to Article 21(2);" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="18" name="the personal data have Not been unlawfully processed;" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="19" name="the personal data do not  have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject;" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="20" name="the personal data have not been collected in relation to the offer of information society services referred to in Article 8(1)." type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="21" name="for exercising the right of freedom of expression and information;" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="22" name="for compliance with a legal obligation which requires processing by Union or Member State law to which the controller is subject or for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller;" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="23" name="for reasons of public interest in the area of public health in accordance with points (h) and (i) of Article 9(2) as well as Article 9(3);" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="24" name="for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) in so far as the right referred to in paragraph 1 is likely to render impossible or seriously impair the achievement of the objectives of that processing; or" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="25" name="for the establishment, exercise or defence of legal claims." type="Task"/>
+ </element-def>
+ <link-def>
+  <decomposition description="" destid="1" name="Decomp1" srcid="2"/>
+  <decomposition description="" destid="1" name="Decomp1" srcid="3"/>
+  <decomposition description="" destid="3" name="Decomp1" srcid="4"/>
+  <decomposition description="" destid="4" name="Decomp1" srcid="5"/>
+  <decomposition description="" destid="4" name="Decomp1" srcid="6"/>
+  <decomposition description="" destid="4" name="Decomp1" srcid="7"/>
+  <decomposition description="" destid="3" name="Decomp1" srcid="8"/>
+  <decomposition description="" destid="8" name="Decomp1" srcid="9"/>
+  <decomposition description="" destid="8" name="Decomp1" srcid="10"/>
+  <decomposition description="" destid="7" name="Decomp1" srcid="11"/>
+  <decomposition description="" destid="7" name="Decomp1" srcid="12"/>
+  <decomposition description="" destid="12" name="Decomp1" srcid="13"/>
+  <decomposition description="" destid="12" name="Decomp1" srcid="14"/>
+  <decomposition description="" destid="7" name="Decomp1" srcid="15"/>
+  <decomposition description="" destid="15" name="Decomp1" srcid="16"/>
+  <decomposition description="" destid="15" name="Decomp1" srcid="17"/>
+  <decomposition description="" destid="7" name="Decomp1" srcid="18"/>
+  <decomposition description="" destid="7" name="Decomp1" srcid="19"/>
+  <decomposition description="" destid="7" name="Decomp1" srcid="20"/>
+  <decomposition description="" destid="2" name="Decomp1" srcid="21"/>
+  <decomposition description="" destid="2" name="Decomp1" srcid="22"/>
+  <decomposition description="" destid="2" name="Decomp1" srcid="23"/>
+  <decomposition description="" destid="2" name="Decomp1" srcid="24"/>
+  <decomposition description="" destid="2" name="Decomp1" srcid="25"/>
+ </link-def>
+ <actor-def>
+  <actor description="" id="a1" name="actor1"/>
+ </actor-def>
+ <actor-IE-link-def>
+  <actorContIE actor="a1" ie="1"/>
+  <actorContIE actor="a1" ie="2"/>
+  <actorContIE actor="a1" ie="3"/>
+  <actorContIE actor="a1" ie="4"/>
+  <actorContIE actor="a1" ie="5"/>
+  <actorContIE actor="a1" ie="6"/>
+  <actorContIE actor="a1" ie="7"/>
+  <actorContIE actor="a1" ie="8"/>
+  <actorContIE actor="a1" ie="9"/>
+  <actorContIE actor="a1" ie="10"/>
+  <actorContIE actor="a1" ie="11"/>
+  <actorContIE actor="a1" ie="12"/>
+  <actorContIE actor="a1" ie="13"/>
+  <actorContIE actor="a1" ie="14"/>
+  <actorContIE actor="a1" ie="15"/>
+  <actorContIE actor="a1" ie="16"/>
+  <actorContIE actor="a1" ie="17"/>
+  <actorContIE actor="a1" ie="18"/>
+  <actorContIE actor="a1" ie="19"/>
+  <actorContIE actor="a1" ie="20"/>
+  <actorContIE actor="a1" ie="21"/>
+  <actorContIE actor="a1" ie="22"/>
+  <actorContIE actor="a1" ie="23"/>
+  <actorContIE actor="a1" ie="24"/>
+  <actorContIE actor="a1" ie="25"/>
+ </actor-IE-link-def>
+</grl-catalog>
