@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<grl-catalog author="Amin" catalog-name="URNspec" description="">
+ <element-def>
+  <intentional-element decompositiontype="And" description="" id="1" name="Art. 20 GDPR (Right to data portability)" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="2" name="Paragraph 20.1 (The right to receive/transmit personal data)" type="Goal"/>
+  <intentional-element decompositiontype="Or" description="" id="3" name="Right to receive personal data" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="4" name="Data is not provided by the subject" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="5" name="data subject can receive the personal data in a structured, commonly used and machine-readable format " type="Task"/>
+  <intentional-element decompositiontype="Or" description="" id="6" name="Right to transmit personal data" type="Goal"/>
+  <intentional-element decompositiontype="Or" description="" id="7" name="Conditions for data transmit right" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="8" name="Processing is Not based on ... Sub-paragraph 20.1.a" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="9" name="the processing is Not carried out by automated means" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="10" name="Subject can transmit data to another controller without hinderance " type="Task"/>
+  <intentional-element decompositiontype="Xor" description="" id="11" name="Paragraph 20.2 (direct transmission)" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="12" name="Direct transmission is not technically feasible" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="13" name="Personal data can be directly transmitted to another controller" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="14" name="Paragraph 20.3 " type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="15" name="Data transmission is without prejudice to  Article 17" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="16" name="The right does not apply to processing necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller." type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="17" name="The right to data portability does not adversely affect the rights and freedoms of others. " type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="18" name="Processing is Not based on consent (Article 6(1).a) " type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="19" name="Processing is Not based on point (a) of Article 9(2) " type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="20" name="Processing is Not based on a contract (Article 6(1).b)" type="Task"/>
+ </element-def>
+ <link-def>
+  <decomposition description="" destid="1" name="Decomp1" srcid="2"/>
+  <decomposition description="" destid="2" name="Decomp1" srcid="3"/>
+  <decomposition description="" destid="3" name="Decomp1" srcid="4"/>
+  <decomposition description="" destid="7" name="Decomp1" srcid="4"/>
+  <decomposition description="" destid="3" name="Decomp1" srcid="5"/>
+  <decomposition description="" destid="2" name="Decomp1" srcid="6"/>
+  <decomposition description="" destid="6" name="Decomp1" srcid="7"/>
+  <decomposition description="" destid="7" name="Decomp1" srcid="8"/>
+  <decomposition description="" destid="7" name="Decomp1" srcid="9"/>
+  <decomposition description="" destid="6" name="Decomp1" srcid="10"/>
+  <decomposition description="" destid="1" name="Decomp1" srcid="11"/>
+  <decomposition description="" destid="11" name="Decomp1" srcid="12"/>
+  <decomposition description="" destid="11" name="Decomp1" srcid="13"/>
+  <decomposition description="" destid="1" name="Decomp1" srcid="14"/>
+  <decomposition description="" destid="14" name="Decomp1" srcid="15"/>
+  <decomposition description="" destid="14" name="Decomp1" srcid="16"/>
+  <decomposition description="" destid="1" name="Decomp1" srcid="17"/>
+  <decomposition description="" destid="8" name="Decomp1" srcid="18"/>
+  <decomposition description="" destid="8" name="Decomp1" srcid="19"/>
+  <decomposition description="" destid="8" name="Decomp1" srcid="20"/>
+ </link-def>
+ <actor-def>
+  <actor description="" id="a1" name="actor1"/>
+ </actor-def>
+ <actor-IE-link-def>
+  <actorContIE actor="a1" ie="1"/>
+  <actorContIE actor="a1" ie="2"/>
+  <actorContIE actor="a1" ie="3"/>
+  <actorContIE actor="a1" ie="4"/>
+  <actorContIE actor="a1" ie="5"/>
+  <actorContIE actor="a1" ie="6"/>
+  <actorContIE actor="a1" ie="7"/>
+  <actorContIE actor="a1" ie="8"/>
+  <actorContIE actor="a1" ie="9"/>
+  <actorContIE actor="a1" ie="10"/>
+  <actorContIE actor="a1" ie="11"/>
+  <actorContIE actor="a1" ie="12"/>
+  <actorContIE actor="a1" ie="13"/>
+  <actorContIE actor="a1" ie="14"/>
+  <actorContIE actor="a1" ie="15"/>
+  <actorContIE actor="a1" ie="16"/>
+  <actorContIE actor="a1" ie="17"/>
+  <actorContIE actor="a1" ie="18"/>
+  <actorContIE actor="a1" ie="19"/>
+  <actorContIE actor="a1" ie="20"/>
+ </actor-IE-link-def>
+</grl-catalog>

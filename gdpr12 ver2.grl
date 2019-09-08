@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<grl-catalog author="Amin" catalog-name="URNspec" description="">
+ <element-def>
+  <intentional-element decompositiontype="And" description="" id="1" name="Art. 12 GDPR (Transparent information)" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="2" name="Paragraph 12.1 (take appropriate measures)" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="3" name="Provide info (referred to in Articles 13 and 14 and any communication under Articles 15 to 22 and 34 relating to processing to the data subject) in a concise, transparent, intelligible form" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="4" name="Provide info in writing, or by other means including, where appropriate, by electronic means" type="Task"/>
+  <intentional-element decompositiontype="Or" description="" id="5" name="Providing information orally" type="Goal"/>
+  <intentional-element decompositiontype="Xor" description="" id="6" name="Paragraph 12.2 (rights under Articles 15 to 22)" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="7" name="Facilitate the exercise of data subject rights under Articles 15 to 22" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="8" name="In case of Article 11(2), demonstrate that it is not in a position to identify the data subject" type="Task"/>
+  <intentional-element decompositiontype="Or" description="" id="9" name="Paragraph 12.3 and 12.4 (actions taken for Articles 15 to 22)" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="10" name="Action is taken" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="11" name="Inform without delay about the reason (No action taken)" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="12" name="Inform on action taken on a request in 1-3 month" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="13" name="Electric response for electronic request is available Where the data subject makes the request by electronic form means" type="Task"/>
+  <intentional-element decompositiontype="Xor" description="" id="14" name="Paragraph 12.5 (on fees)" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="15" name="Actions or communications for Articles 13 to 22 and 34 is free " type="Task"/>
+  <intentional-element decompositiontype="Or" description="" id="16" name="Requests are unfounded or excessive" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="17" name="Charge a reasonable fee" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="18" name="Refuse to act" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="19" name="Request for additional id info if needed (for Articles 15 to 22)" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="20" name="Paragraph 12.7 (Articles 13and 14)" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="21" name="Provide easily visible, intelligible info about processing " type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="22" name="Icons are machine-readable if electronically presented " type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="23" name="Do Not provide information to the data subject orally" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="24" name="Conditions for oral informing " type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="25" name="Data subject has requested for oral informing" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="26" name="The identity of the subject is proven by other means" type="Task"/>
+ </element-def>
+ <link-def>
+  <decomposition description="" destid="1" name="Decomp1" srcid="2"/>
+  <decomposition description="" destid="2" name="Decomp1" srcid="3"/>
+  <decomposition description="" destid="2" name="Decomp1" srcid="4"/>
+  <decomposition description="" destid="2" name="Decomp1" srcid="5"/>
+  <decomposition description="" destid="1" name="Decomp1" srcid="6"/>
+  <decomposition description="" destid="6" name="Decomp1" srcid="7"/>
+  <decomposition description="" destid="6" name="Decomp1" srcid="8"/>
+  <decomposition description="" destid="1" name="Decomp1" srcid="9"/>
+  <decomposition description="" destid="9" name="Decomp1" srcid="10"/>
+  <decomposition description="" destid="9" name="Decomp1" srcid="11"/>
+  <decomposition description="" destid="10" name="Decomp1" srcid="12"/>
+  <decomposition description="" destid="10" name="Decomp1" srcid="13"/>
+  <decomposition description="" destid="1" name="Decomp1" srcid="14"/>
+  <decomposition description="" destid="14" name="Decomp1" srcid="15"/>
+  <decomposition description="" destid="14" name="Decomp1" srcid="16"/>
+  <decomposition description="" destid="16" name="Decomp1" srcid="17"/>
+  <decomposition description="" destid="16" name="Decomp1" srcid="18"/>
+  <decomposition description="" destid="1" name="Decomp1" srcid="19"/>
+  <decomposition description="" destid="1" name="Decomp1" srcid="20"/>
+  <decomposition description="" destid="20" name="Decomp1" srcid="21"/>
+  <decomposition description="" destid="20" name="Decomp1" srcid="22"/>
+  <decomposition description="" destid="5" name="Decomp1" srcid="23"/>
+  <decomposition description="" destid="5" name="Decomp1" srcid="24"/>
+  <decomposition description="" destid="24" name="Decomp1" srcid="25"/>
+  <decomposition description="" destid="24" name="Decomp1" srcid="26"/>
+ </link-def>
+ <actor-def>
+  <actor description="" id="a1" name="actor1"/>
+ </actor-def>
+ <actor-IE-link-def>
+  <actorContIE actor="a1" ie="1"/>
+  <actorContIE actor="a1" ie="2"/>
+  <actorContIE actor="a1" ie="3"/>
+  <actorContIE actor="a1" ie="4"/>
+  <actorContIE actor="a1" ie="5"/>
+  <actorContIE actor="a1" ie="6"/>
+  <actorContIE actor="a1" ie="7"/>
+  <actorContIE actor="a1" ie="8"/>
+  <actorContIE actor="a1" ie="9"/>
+  <actorContIE actor="a1" ie="10"/>
+  <actorContIE actor="a1" ie="11"/>
+  <actorContIE actor="a1" ie="12"/>
+  <actorContIE actor="a1" ie="13"/>
+  <actorContIE actor="a1" ie="14"/>
+  <actorContIE actor="a1" ie="15"/>
+  <actorContIE actor="a1" ie="16"/>
+  <actorContIE actor="a1" ie="17"/>
+  <actorContIE actor="a1" ie="18"/>
+  <actorContIE actor="a1" ie="19"/>
+  <actorContIE actor="a1" ie="20"/>
+  <actorContIE actor="a1" ie="21"/>
+  <actorContIE actor="a1" ie="22"/>
+  <actorContIE actor="a1" ie="23"/>
+  <actorContIE actor="a1" ie="24"/>
+  <actorContIE actor="a1" ie="25"/>
+  <actorContIE actor="a1" ie="26"/>
+ </actor-IE-link-def>
+</grl-catalog>

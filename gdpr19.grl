@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<grl-catalog author="Amin" catalog-name="URNspec" description="">
+ <element-def>
+  <intentional-element decompositiontype="And" description="" id="1" name="Art. 19 GDPR (Notification for rectification/erasure/restriction)" type="Goal"/>
+  <intentional-element decompositiontype="Or" description="" id="2" name="Inform about recipients" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="3" name="Data subject did not request about recipients" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="4" name="Inform data subject about the recipients of personal data" type="Task"/>
+  <intentional-element decompositiontype="Or" description="" id="5" name="Notification regarding processing personal data " type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="6" name="Cases of rectification, erasure, or restriction" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="7" name="No rectification happened ( Article 16)" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="8" name="No erasure happened (Article 17(1) )" type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="9" name="No restriction of processing ( Article 18)" type="Task"/>
+  <intentional-element decompositiontype="Xor" description="" id="10" name="Communication with recipients" type="Goal"/>
+  <intentional-element decompositiontype="And" description="" id="11" name="communicate any rectification or erasure of personal data or restriction of processing carried out " type="Task"/>
+  <intentional-element decompositiontype="And" description="" id="12" name="Communication proved impossible or involves disproportionate effort" type="Task"/>
+ </element-def>
+ <link-def>
+  <decomposition description="" destid="1" name="Decomp1" srcid="2"/>
+  <decomposition description="" destid="2" name="Decomp1" srcid="3"/>
+  <decomposition description="" destid="2" name="Decomp1" srcid="4"/>
+  <decomposition description="" destid="1" name="Decomp1" srcid="5"/>
+  <decomposition description="" destid="5" name="Decomp1" srcid="6"/>
+  <decomposition description="" destid="6" name="Decomp1" srcid="7"/>
+  <decomposition description="" destid="6" name="Decomp1" srcid="8"/>
+  <decomposition description="" destid="6" name="Decomp1" srcid="9"/>
+  <decomposition description="" destid="5" name="Decomp1" srcid="10"/>
+  <decomposition description="" destid="10" name="Decomp1" srcid="11"/>
+  <decomposition description="" destid="10" name="Decomp1" srcid="12"/>
+ </link-def>
+ <actor-def>
+  <actor description="" id="a1" name="actor1"/>
+ </actor-def>
+ <actor-IE-link-def>
+  <actorContIE actor="a1" ie="1"/>
+  <actorContIE actor="a1" ie="2"/>
+  <actorContIE actor="a1" ie="3"/>
+  <actorContIE actor="a1" ie="4"/>
+  <actorContIE actor="a1" ie="5"/>
+  <actorContIE actor="a1" ie="6"/>
+  <actorContIE actor="a1" ie="7"/>
+  <actorContIE actor="a1" ie="8"/>
+  <actorContIE actor="a1" ie="9"/>
+  <actorContIE actor="a1" ie="10"/>
+  <actorContIE actor="a1" ie="11"/>
+  <actorContIE actor="a1" ie="12"/>
+ </actor-IE-link-def>
+</grl-catalog>
